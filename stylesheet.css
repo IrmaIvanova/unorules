@@ -465,7 +465,7 @@ div.comment-pages {
 	}
 }
 
-@media (min-width: 468px){
+@media (min-width: 648px){
 	#header {
 	    background-position: 0px 5px;
 	}
