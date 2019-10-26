@@ -1,0 +1,549 @@
+
+/* Layout */
+
+body {
+	background: url('img/background.gif');
+	background-size: 100%;
+    width: 100%;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	line-height: 130%;
+}
+
+h1 {
+	margin-top: 0.5em;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #EA4000;
+	text-align: center;
+}
+
+h1 {
+	font-size: 140%;
+}
+
+h2 {
+	margin-top: 1em;
+	font-size: 120%;
+}
+
+h3 {
+	font-size: 100%;
+	text-align: left;
+	color: Black;
+	/*margin-top: 1em;*/
+}
+
+p {
+	margin-top: 0px;
+	padding-top: 0px;	
+	margin-bottom: 0.8em;
+	padding-bottom: 0px;	
+	text-align: justify;
+	color: Black;
+}
+
+ul {
+	list-style-image: url(img/uno_marker.gif);
+}
+
+li {
+	margin-bottom: 0.5em;
+	text-align: justify;
+}
+
+img {
+	border-width: 0pt;
+}
+
+td {
+	text-align: left;
+	vertical-align: top;
+	margin-left: 0em;
+	padding-left: 0em;
+}
+
+#main {
+	margin-top: 40px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;	
+}
+
+#header {
+   height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background: url('img/frame_top.gif')no-repeat;
+	background-size: 100%;
+
+    background-position: 0px 0px;
+
+}
+
+#header-title h1 {
+	font-size: 180%;
+	margin: 0em;
+	position: relative;
+	top: -30px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+} 
+
+#main-menu {
+	margin-top: -10px;
+
+}
+
+#title {
+	margin: 0em;
+	position: relative;
+	top: -0.3em;
+}
+
+#slogan {
+	margin: 0.3em 0em 0.8em 0em;
+	font-family: Georgia, serif;
+	font-size: 120%;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#content {
+	margin: 0px;
+	padding: 0em 3em 0.1em 3em;
+	background: url('img/frame_middle.gif');
+	background-size: 100%;
+	text-align: left;
+}
+
+#banner-igroved {
+	position: absolute;
+	width: 100px;
+	left: 750px;
+	top: 20px; 
+	/*margin-left: 770px;/* 99% auto auto;*/
+}
+
+#banner-igroved img {
+	border: thin solid blue;
+}
+
+#footer {
+   height: 53px;
+	margin: 0px;
+	padding: 0px;
+	background: url('img/frame_bottom.gif')no-repeat;
+	background-size: 100%;
+
+}
+
+a:visited, a:link, a:focus, a:active {
+	color: #008DD4;
+}
+
+a:hover {
+	color: #EA4000;
+}
+
+#main-menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 90%;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+#footer-menu {
+	color: #008DD4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 90%;	
+}
+
+#footer-coopyrights {
+	padding-top: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%; 
+}
+
+
+/* First page */
+
+div.left-column ul  {
+	margin-right: 330px;
+}
+
+div.right-column {
+	float: right;
+	width: 310px;
+}
+
+div.right-column h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: left;
+}
+
+div.span-column {
+	clear: both;
+	margin-top: 25px;
+}
+
+div.span-column h2 {
+	text-align: left;
+	margin-left: 120px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+div.span-column p {
+	margin-left: 120px;
+}
+
+div#uno-delivery {
+	float: left;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+div#the-end {
+	clear: both;
+}
+
+div.news {
+	position: relative;
+	left: 2.7em;
+	top: -0.5em;
+   width: 271px;
+	height: 84px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#baloons {
+	float: left;
+}
+
+img#baloon2 {
+	position: relative;
+	left: 96px;
+	top: -26px;
+}
+
+img#baloon3 {
+	position: relative;
+	left: 89px;
+	top: -22px;
+}
+
+
+/* Rules page */
+.all-rules-block{
+	display: flex;
+}
+div.left-float img {
+   padding: 0.2em 2.6em 1.4em 0em;
+	float: left;
+}
+
+div.left-float {
+	clear: both;
+}
+
+div.left-column-rules {
+	display: flex;
+	flex-direction: column;
+	width: 140px;
+}
+
+div.left-column-rules img {
+   padding-bottom: 1.8em;
+}
+
+
+div.right-column-rules {
+	margin-left: 37px;
+}
+
+
+/* Order page */
+div.order-form {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 1em;	
+}
+
+div.order-form h2 {
+	margin-top: 0em;	
+}
+
+table#order {
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 80%;
+	vertical-align: top;
+}
+
+table#order td {
+	padding-bottom: 0.8em;
+}
+
+table#confirm {
+	width: 100%;
+	margin-bottom: 1em; 
+}
+
+table#confirm td, th {
+	border: 1px solid silver;
+	padding: 4px;
+	text-align: center;
+}
+
+.mandatory {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+text-area {
+	width: 30em;
+}
+
+.warning {
+	text-align: center;
+	color: Red;
+	font-weight: bold;
+}
+
+table#order .info {
+	font-size: 80%;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+table#order td.with-info {
+	padding-bottom: 0;
+}
+
+/* Delivery in Moscow */
+
+div#right-column-delivery {
+	margin-left: 160px;
+}
+
+/* About us (contacts) */
+
+table#feedback {
+	margin-bottom: 1em;
+}
+
+.feedback-input {
+	width:390px;
+}
+
+div#requisite {
+	margin-top: -1em;
+	margin-bottom: 1em;
+}
+
+/* Comments page */
+
+div.comment {
+	margin-top: 1.2em; 
+	padding-bottom: 1.2em;
+	border-bottom: 2px solid #008DD4;	
+}
+
+div.comment p {
+	margin-top: 0.2em;
+   margin-bottom: 0em;
+}
+
+div#right-column-comments {
+	margin-left: 250px;
+}
+
+table#comment td {
+   padding-right: 0.5em;
+}
+
+p.comment-header {
+	font-weight: bold;
+}
+
+p.comment-answer {
+	padding-top: 0.4em;
+	font-variant: small-caps;
+	font-size: 90%
+}
+
+p.comment-answer span {
+	font-weight: bold;
+	font-variant: normal;
+}
+
+div#comment-form {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.comment-input {
+	width:470px;
+}
+
+div.comment-pages {
+	margin-top: 1em;
+	text-align: center;
+	
+}
+
+
+@media(min-width: 320px){
+	#header {
+		background-position: 0px 27px;
+	}
+	
+	.all-rules-block {
+		flex-direction: column;
+	}
+	div.left-column-rules {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	div.left-column-rules img {
+		padding-bottom: 0.8em;
+		padding: 0.8em;
+		width: 85px;
+		height: 85px;
+	}
+	.portal ul{
+		display: flex;
+    	/* flex-direction: column; */
+    	justify-content: space-between;
+    	flex-wrap: wrap;
+    	width: 90%;
+    	/* padding-right: 0.8em; */
+	}
+
+	.portal ul li {
+	    margin-bottom: 0.5em;
+	    text-align: justify;
+	    padding: 0 2.5em .8em 0px;
+	}
+	div.right-column-rules {
+		margin-left: 0;
+	}
+
+	div.right-column-rules img {
+		width: 100%;
+		height: auto;
+	}
+	div.left-float img  {
+		width: 30%;
+		padding: 1em 1.1em 1em 0em;
+
+	}
+
+}
+
+@media (min-width: 468px){
+	#header {
+	    background-position: 0px 16px;
+	}
+}
+
+@media (min-width: 468px){
+	#header {
+	    background-position: 0px 5px;
+	}
+}
+
+
+@media(min-width: 768px){
+	#main {
+		margin-top: 40px;
+		width: 732px;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;	
+	}
+	#header {
+		background-position: 0px 0px;
+	}
+	
+	.all-rules-block {
+		flex-direction: row;
+	}
+	div.left-column-rules {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	div.left-column-rules img {
+		padding-bottom: 0.8em;
+		padding: 0.8em;
+		height: 140px;
+		width: 140px;
+	}
+	.portal ul{
+		display: flex;
+    	/* flex-direction: column; */
+    	justify-content: space-between;
+    	flex-wrap: wrap;
+    	width: 90%;
+    	/* padding-right: 0.8em; */
+	}
+
+	.portal ul li {
+	    margin-bottom: 0.5em;
+	    text-align: justify;
+	    padding: 0 2.5em .8em 0px;
+	}
+	div.right-column-rules {
+		margin-left: 0;
+	}
+
+	div.right-column-rules img {
+		width: 60%;
+		height: auto;
+	}
+	div.left-float img  {
+			width: 20%;
+			padding: 0em 2.1em 1em 0em;
+	}
+
+}
+/*
+     FILE ARCHIVED ON 19:25:55 Jun 30, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:20:42 Oct 25, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 119.174 (3)
+  esindex: 0.005
+  captures_list: 135.702
+  CDXLines.iter: 10.455 (3)
+  PetaboxLoader3.datanode: 132.143 (5)
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.126
+  RedisCDXSource: 3.839
+  PetaboxLoader3.resolve: 64.156 (2)
+  load_resource: 174.299
+*/
